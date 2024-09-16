@@ -4,6 +4,17 @@ app_publisher = "saif780"
 app_description = "Property Care"
 app_email = "saif780@gmail.com"
 app_license = "mit"
+
+fixtures = [
+    "Custom Field",
+    "Property Setter",
+    "Print Format",
+    "DocType",
+    "Workflow",
+    "Workflow State",
+    "Workflow Action",
+]
+
 # required_apps = []
 
 # Includes in <head>

@@ -5,16 +5,20 @@ app_description = "Property Care"
 app_email = "saif780@gmail.com"
 app_license = "mit"
 
+#fixtures = [
+#    "Custom Field",
+#    "Property Setter",
+#    "Print Format",
+#    "DocType",
+#    "Workflow",
+#    "Workflow State",
+#    "Workflow Action",
+#]
 fixtures = [
-    "Custom Field",
-    "Property Setter",
-    "Print Format",
-    "DocType",
-    "Workflow",
-    "Workflow State",
-    "Workflow Action",
+    {"dt": "DocType", "filters": [["name", "in", ["property", "Team Member", "Team", "Maintenance Request", "Tasks", "Schedule", "Room", "Floor"]]]},
+    {"dt": "Custom Field"},
+    {"dt": "Property Setter"},
 ]
-
 # required_apps = []
 
 # Includes in <head>
